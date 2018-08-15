@@ -9,5 +9,5 @@ all_badges = []
 for people in 0..attendees
   all_badges.push(badge_maker(people))
 end
-
+all_badges
 end

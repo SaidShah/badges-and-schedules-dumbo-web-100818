@@ -18,5 +18,5 @@ badges_with_room_nums = []
 attendees.each_with_index do |member,room_num|
   badges_with_room_nums << "Hello, #{member}! You'll be assigned to room #{room_num}!"
 end
-
+badges_with_room_nums
 end

@@ -27,7 +27,11 @@ def printer(attendees)
 badges = batch_badge_creator(attendees)
 rooms = assign_rooms(attendees)
 
-badges.inspect
-rooms.inspect
+badges.each do |each_badge|
+  puts each_badge
+end
+rooms.each do |each_room|
+  puts each_room
+end
 
 end

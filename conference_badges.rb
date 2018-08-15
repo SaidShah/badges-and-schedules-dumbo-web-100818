@@ -11,3 +11,4 @@ attendees.each do |people|
 end
 all_badges
 end
+

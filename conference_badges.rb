@@ -20,3 +20,10 @@ attendees.each_with_index do |member,room_num|
 end
 badges_with_room_nums
 end
+
+
+def printer(attendees)
+attendees.each do |each_badge|
+  puts each_badge
+end
+end

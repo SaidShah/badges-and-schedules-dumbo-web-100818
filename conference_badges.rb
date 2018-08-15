@@ -24,7 +24,7 @@ end
 
 def printer(attendees)
 
-batch_badge_creator(attendees).inspect
-assign_rooms(attendees).inspect
+badges = batch_badge_creator(attendees)
+rooms = assign_rooms(attendees)
 
 end

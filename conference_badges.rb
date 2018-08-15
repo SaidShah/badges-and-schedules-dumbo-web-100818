@@ -6,7 +6,7 @@ end
 
 def batch_badge_creator(attendees)
 all_badges = []
-for people in 0..attendees.length 
+attendees.each do
   all_badges << badge_maker(people)
 end
 all_badges
